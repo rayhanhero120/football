@@ -1,0 +1,156 @@
+/* ................................... */
+/* top chart css */
+/* -------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:#2D25A0;  
+    padding: 150px;
+
+}
+.half-width{
+    width: 80%;
+
+    
+}
+.half-width img{
+    width: 120%;
+    padding-left: 10%;
+}
+.watch-button{
+    text-decoration: none;
+    background-color:#E02C6D; 
+    padding: 10px 20px;
+    height: 44px;
+    color: #FFFFFF;  
+    transition: width 5s;
+}
+.watch-button:hover{
+    width: 10px;
+    height: 10px;
+}
+
+  
+
+
+/* ---------------------------------------- */
+/* ----------------aboot good player----------------- */
+/* --------------------------------- */
+
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.player .player-banner img{
+height: 244px;
+width: 300px;
+}
+.player{
+    text-align: center;
+    box-shadow: #FFFFFF;
+    justify-content: center;
+    border:2px solid #FFFFFF;
+}
+.player-info{
+    text-align: center;
+}
+    /* ----------------------- */
+    /* bonus point */
+    /* --------------------- */
+   
+    
+/* -------------------------------- */
+/*--------------------- footer section----------------------------- */
+/* ----------------------------------------------- */
+.footer-logo img{
+    height: 200px;
+    width: 500px;
+    
+}
+.footer-logo{
+    align-items: center;
+    justify-content: center;
+}
+.social-media{
+    display: flex;
+    padding: 20px; 
+    justify-content: center;
+}
+.facebook{
+    height: 40px;
+    width: 40px;
+}
+.google{
+    height: 40px;
+    width: 40px;
+}
+.twitter{
+    height: 40px;
+    width: 40px;
+}
+.user{
+    height: 40px;
+    width: 40px;
+    
+}
+.footer-section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* copyright ..................... */
+/* ----------------------- */
+.symbol-copyright{
+    font-size: 11px;
+    font-weight: 100px;
+}
+/* ---------------------------------- */
+/* media queries */
+/* ----------------------- */
+/* mobile device */
+
+@media only screen and (max-width: 688px){
+    .container , .players{
+       
+        grid-template-columns:repeat(1, 1fr) ;
+       
+    }
+    .half-width{
+        width: 100%;
+        padding-right: 100px;
+        margin-left: -90px;
+    }
+    .half-width img{
+        width: 90%;
+        padding-right: 100px;
+        margin-left: -40px;
+    }
+    .watch-button{
+        padding-top: 50px;
+        width: 20px;
+    }
+    /* footer */
+    .footer-section{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+    
+
+   
+
+
