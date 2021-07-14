@@ -16,6 +16,7 @@ h1{
     background-color:#2D25A0;  
     padding: 150px;
 
+
 }
 .half-width{
     width: 80%;
@@ -25,6 +26,7 @@ h1{
 .half-width img{
     width: 120%;
     padding-left: 10%;
+    transition: transform 1s;
 }
 .watch-button{
     text-decoration: none;
@@ -32,11 +34,11 @@ h1{
     padding: 10px 20px;
     height: 44px;
     color: #FFFFFF;  
-    transition: width 5s;
+    
 }
-.watch-button:hover{
-    width: 10px;
-    height: 10px;
+.half-width img:hover{
+    transform: scale(1.1);
+    
 }
 
   
