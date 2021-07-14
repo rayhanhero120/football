@@ -23,23 +23,34 @@ h1{
 
     
 }
+/* transition is also here */
+/* ..................... */
 .half-width img{
     width: 120%;
     padding-left: 10%;
     transition: transform 1s;
 }
-.watch-button{
-    text-decoration: none;
-    background-color:#E02C6D; 
-    padding: 10px 20px;
-    height: 44px;
-    color: #FFFFFF;  
-    
-}
 .half-width img:hover{
     transform: scale(1.1);
     
 }
+.arrow-button{
+    text-decoration: none;
+    background-color:#E02C6D; 
+  
+    height: 50px ;
+   
+    color: #FFFFFF;  
+    padding: 5px;
+    
+}
+.watch-button{
+    display: flex;
+   
+   
+}
+
+
 
   
 
